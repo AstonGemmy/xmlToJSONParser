@@ -22,3 +22,4 @@ How to run the test suite
 Expected Result
     --> Running the command above will parse the 'hr_test_1.xml' file in the 
         root directory and output it as 'hr_test_1.json' to the root directory.
+        The new json file will be a json version of the parsed xml equivalent
