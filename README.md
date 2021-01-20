@@ -8,7 +8,7 @@ Ruby Version
     --> Ruby v2.7
 
 Dependencies
-    --> It requires 'json' Ruby gem and 'activeSupport' Ruby gem
+    --> This app basically requires 'json' Ruby gem and 'activeSupport' Ruby gem
 
 Setup/Configuration
     --> Make sure Required dependencies are available
