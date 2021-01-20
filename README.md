@@ -1,24 +1,24 @@
 # README
+This is a simple Ruby app that parses an xml data type file to json data type file
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Requirements
+    --> Ruby must be installed and available globally
 
-Things you may want to cover:
+Ruby Version
+    --> Ruby v2.7
 
-* Ruby version
+Dependencies
+    --> It requires 'json' Ruby gem and 'activeSupport' Ruby gem
 
-* System dependencies
+Setup/Configuration
+    --> Make sure Required dependencies are available
+    --> If not, run 'bundler install' in project directory to get
+        all dependencies installed
 
-* Configuration
+How to run the test suite
+    --> Once all dependencies required are installed and set, run 'ruby 
+        convert.rb'
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Expected Result
+    --> Running the command above will parse the 'hr_test_1.xml' file in the 
+        root directory and output it as 'hr_test_1.json' to the root directory.
